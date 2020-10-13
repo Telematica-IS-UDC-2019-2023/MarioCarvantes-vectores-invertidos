@@ -4,7 +4,7 @@ class Vector {
     }
     full(array){
         this.array = array;
-        for(let i = 0; i <= 10; i++){
+        for(let i = 0; i <= 9; i++){
             array[i] = ( i + 1)
         }
         for( let a = 0; a <= array.length; a++){
@@ -41,7 +41,7 @@ class Vector {
 let vector = new Vector;
 vector.full(new Array);
 
-console.log (`estos son los 10 numeros pares ${vector.mostrar()}`)
+console.log (`estos son los numeros pares del vector ${vector.mostrar()}`)
 
 console.log (`estos son los numeros invertidos ${vector.invertirVector()}`)
 
